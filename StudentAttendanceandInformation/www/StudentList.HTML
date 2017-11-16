@@ -1,0 +1,65 @@
+<!doctypeh tml>
+	<html>
+		<head>
+			<title> Student List </title>
+		</head>
+			<body>
+				<center> <table style="width:0 auto" border="1|0">
+					<tr>
+						<th colspan="9"> Student List </th>
+					
+					</tr>
+					<tr>
+						<th colspan="5"> III - BSIT - B </th>
+						<th colspan="4"> <script>
+						var tD = new Date();
+						var datestr = (tD.getMonth()+ 1) + "/" + tD.getDate() + "/" + tD.getFullYear();
+						document.write("<input type='text' style='text-align:center;' name='textField' value='"+datestr+"'>");
+								</script> </th>
+					</tr>
+					<tr id="row1">
+						<th colspan="5" rowspan="2"> Name </th>
+						<th colspan="2" rowspan="2"> Present </th>
+						<th colspan="2" rowspan="2"> Absent </th>
+					</tr>
+					<tr>
+						<td colspan="9"></td>				
+					</tr>
+					<tr id="row2"> <form name="form1">
+						<td colspan="5"> Ferrer, Franz Rodel F. </td>
+						<td colspan="2"> <center> <input type="checkbox" name="1Present" value="Ferrer_Present"> </center> </td>
+						<td colspan="2"> <center> <input type="checkbox" name="1Absent" value="Ferrer_Absent"> </center> </td>						
+					</form> </tr>
+					<tr id="row3"> <form name="form2">
+						<td colspan="5"> Paragas, Joe Bryan </td>
+						<td colspan="2"> <center> <input type="checkbox" name="2Present" value="Paragas_Present"> </center> </td>
+						<td colspan="2"> <center> <input type="checkbox" name="2Absent" value="Paragas_Absent"> </center> </td>						
+					</form> </tr>
+					<tr id="row4">
+						<td colspan="5"> De Guzman, Arnold </td>
+						<td colspan="2"> <center> <input type="checkbox" name="3Present" value="DeGuzman_Present"> </center> </td>
+						<td colspan="2"> <center> <input type="checkbox" name="3Absent" value="DeGuzman_Present"> </center> </td>						
+					</tr>
+					<tr id="row5">
+						<td colspan="5"> Ariola, Jeric </td>
+						<td colspan="2"> <center> <input type="checkbox" name="3Present" value="Ariola_Present"> </center> </td>
+						<td colspan="2"> <center> <input type="checkbox" name="3Absent" value="Ariola_Absent"> </center> </td>						
+					</tr>
+					<tr id="row5">
+						<td colspan="5"> Verzosa, Editha </td>
+						<td colspan="2"> <center> <input type="checkbox" name="4Present" value="Verzosa_Present"> </center> </td>
+						<td colspan="2"> <center> <input type="checkbox" name="4Absent" value="Verzosa_Absent"> </center> </td>						
+					</tr>
+					<tr id="row5">
+						<td colspan="5"> Aviles, Ginalyn </td>
+						<td colspan="2"> <center> <input type="checkbox" name="5Present" value="Aviles_Present"> </center> </td>
+						<td colspan="2"> <center> <input type="checkbox" name="5Absent" value="Aviles_Absent"> </center> </td>						
+					</tr>
+				</table> </center>
+				<script src="js/hello.js"></script>
+				<br><br><br><br><br><br><br><br><br>
+				<a class="btn" href="Menu.HTML"> <center> Menu </center> </a>
+				<br><br><br><br><br><br><br><br><br>
+
+			</body>
+	</html>
